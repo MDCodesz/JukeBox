@@ -10,8 +10,8 @@
 
     <style>
         body {
-            
-        background-color: #5c55b4;
+
+            background-color: #5c55b4;
         }
 
         #openB {
@@ -22,12 +22,13 @@
         }
 
         #open {
-            background-color: #ee852e; /* Green */
+            background-color: #ee852e;
+            /* Green */
             border-radius: 25px;
             color: white;
             width: 300px;
             height: 100px;
-            font-size:50px;
+            font-size: 50px;
             padding: 15px 32px;
             text-align: center;
             text-decoration: none;
@@ -35,46 +36,44 @@
             border: 2px solid #ffffff;
             margin: auto;
             cursor: pointer;
-            -webkit-transition-duration: 0.4s; 
+            -webkit-transition-duration: 0.4s;
             transition-duration: 0.4s;
-            
-            
+
+
         }
 
         #open:hover {
             background-color: #ffb579;
-        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
         }
 
-    #home {
-        background-color: #5c55b4;
-    }
+        #home {
+            background-color: #5c55b4;
+        }
 
-    #title {
-        color: white;
-        font-size: 100px;
-        text-shadow: -1px 1px 0 #000,
-                          5px 7px 0 #000,
-                         1px -1px 0 #000,
-                        -1px -1px 0 #000;
-        
-    }
-    
-    #back {
-        background-image: url('images/cat.gif');
-        background-repeat: no-repeat;
-        background-position: center;
-         background-size: cover;
+        #title {
+            color: white;
+            font-size: 100px;
+            text-shadow: -1px 1px 0 #000,
+                5px 7px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
 
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
-        height: 900px;
+        }
 
-    }
-    
+        #back {
+            background-image: url('cat.gif');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
 
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            height: 900px;
+
+        }
     </style>
 
 
@@ -83,14 +82,14 @@
 
 <body>
 
-    <div id ='home'>
+    <div id='home'>
         <div id='back'>
             <h1 id="title">Guess That Song</h1><br>
             <button id="open" onclick="window.location.href='game.html';">Let's Play</button>
         </div>
-       
+
     </div>
-    
+
 
 </body>
 
